@@ -1,0 +1,2 @@
+.card { transition: background 0.3s ease; }
+.card div input[type="checkbox"] { margin-right: 5px; }
