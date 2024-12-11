@@ -1,11 +1,13 @@
 <div align="center">
 
+![Banner](/icons/128x128.png)
+
 # Printables Model Reminder
 
-🎨 **Add notes and reminders directly to model cards on printables.com.**
+**Add notes and reminders directly to model cards on printables.com.**
 Easily track important details and save your thoughts for later reference.
 
----
+<br><br>
 
 </div>
 
@@ -22,6 +24,8 @@ Easily track important details and save your thoughts for later reference.
 
 ---
 
+<br>
+
 ## 🚀 Installation From Here
 
 1. Clone or download this repository to your local machine.
@@ -31,22 +35,28 @@ Easily track important details and save your thoughts for later reference.
 
 ---
 
+<br>
+
 ## 🛠️ How to Use
 
 1. Navigate to [printables.com](https://www.printables.com).
 2. Each model card will display a comment box at the top.
-3. Add your notes or reminders in the box.
+3. Add your notes or reminders in the comment box to save.
 4. Your notes are saved and visible whenever you return to the site.
 
 ---
 
+<br>
+
 ## 📂 File Structure
 
 - **manifest.json**: Configuration for the Chrome extension.
-- **content.js**: Script that adds the comment functionality to model cards.
 - **icons/**: Folder containing icons used by the extension.
+- **content.js**: Script that adds the comment functionality to model cards.
 
 ---
+
+<br><br>
 
 <div align="center">
 
