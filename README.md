@@ -38,7 +38,7 @@
 ## 🚀 Installation
 
 1. Clone or download this repository to your local machine.
-2. Open Chrome and navigate to `chrome://extensions/` and enable dev mode.
+2. Open Chrome and navigate to `chrome://extensions/` and enable dev.
 4. Click **Load unpacked** and select the folder containing the extension files.
 
 ---
