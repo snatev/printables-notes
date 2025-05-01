@@ -41,6 +41,8 @@
 2. Open Chrome and navigate to `chrome://extensions/` and enable dev.
 4. Click **Load unpacked** and select the folder containing the extension files.
 
+Or find it in the Chrome Web Store.
+
 ---
 
 <br>
