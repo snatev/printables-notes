@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy – Printables Model Reminder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --primary-color: #3a86ff;
+            --text-color: #333;
+            --secondary-text: #666;
+            --light-bg: #f9f9f9;
+            --card-bg: #fff;
+            --border-color: #e0e0e0;
+            --shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        body {
+            margin: 0;
+            color: var(--text-color);
+            line-height: 1.7;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+            position: relative;
+            background-image: url('icons/original.png');
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.85);
+            z-index: -1;
+        }
+
+        .container {
+            padding: 2.5rem;
+            max-width: 750px;
+            margin: 3rem auto;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        header p {
+            margin: 0;
+            color: var(--secondary-text);
+            font-size: 1.1rem;
+        }
+
+        .content {
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+
+        code {
+            background: #f2f7ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: var(--primary-color);
+        }
+
+        footer {
+            color: var(--secondary-text);
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            font-size: 0.9rem;
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2563eb;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .icon svg {
+            width: 64px;
+            height: 64px;
+            fill: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1.5rem auto;
+                padding: 1.5rem;
+                border-radius: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                </svg>
+            </div>
+            <h1>Privacy Policy</h1>
+            <p>Printables Model Reminder</p>
+        </header>
+
+        <div class="content">
+            <p><strong>Printables Model Reminder</strong> is designed with your privacy as a priority. We do not collect, transmit, or store any personal user data off your device.</p>
+
+            <p>All comments and reminders you enter into the extension are saved locally in your browser's storage via the Chrome <code>storage.local</code> API. This means your data remains on your device and under your control.</p>
+
+            <p>We believe in transparency and respect for your privacy:</p>
+            <ul>
+                <li>No data is ever uploaded to our servers</li>
+                <li>No personal information is shared with any third parties</li>
+                <li>No tracking or analytics are implemented in this extension</li>
+            </ul>
+
+            <p>If you have any questions about this policy or concerns about your privacy while using our extension, please contact the developer at <a href="mailto:info@snatev.com">info@snatev.com</a>.</p>
+        </div>
+
+        <footer>
+            Last updated: May 1, 2025
+        </footer>
+    </div>
+</body>
+</html>
