@@ -53,13 +53,3 @@ Or find it in the Chrome Web Store.
 2. Each model card will display a comment box at the top.
 3. Add your notes or reminders in the comment box to save.
 4. Your notes are saved and visible whenever you return to the site.
-
----
-
-<br>
-
-## 📂 File Structure
-
-- **manifest.json**: Configuration for the Chrome extension.
-- **icons/**: Folder containing icons used by the extension.
-- **content.js**: Script that adds the comment functionality to model cards.
